@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace week8
 {
-    public partial class Form1 : Form
+    public partial class CalculateForm : Form
     {
-        public Form1()
+        public CalculateForm()
         {
             InitializeComponent();
+        }
+
+        private void CalculateForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
